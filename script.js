@@ -13,7 +13,7 @@ const finalNoBtn = document.getElementById("finalNoBtn");
 let noCount = 0;
 let isHateMode = false;
 
-// UNIVERSAL NINJA LOGIC: Stays inside the designated Glass Card
+// TRAPPED NINJA LOGIC: Calculates boundaries of the specific glass card
 const moveNinja = (btn, containerId) => {
   const box = document.getElementById(containerId);
   const boxRect = box.getBoundingClientRect();
